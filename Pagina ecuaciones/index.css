@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Roboto',sans-serif;
+    margin: 0;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.30em;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+
+button{
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1.5px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: blue;
+}
+
+button:hover{
+    background-color: rgb(12, 12, 97);
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.color-acento{color: blue;}
+
+header{
+    background-color: rgb(240,240,240);
+}
+
+header .logo{
+    margin: 0;
+    padding: 20px 25px;
+    font-weight: bold;
+    color: blue;
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blue;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 76vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/Ecuaciones-Diferenciales.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+#somos-aprendeya .container{
+    text-align: center;
+    padding: 170px 12px;
+}
+
+#videos-explicativos{
+    background-color: rgb(30,30,30);
+    color: white;
+}
+
+#videos-explicativos .container{
+    padding: 100px 10px;
+}
+
+#videos-explicativos h2{
+    margin-top: 0;
+}
+
+#vidos-explicativos p{
+    display: none;
+}
+
+#videos-explicativos .cartas{
+    padding: 30px 0px;
+    margin: 7px;
+    border-radius: 7;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/download.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/images.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.carta:last-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/ffce4b_ecuaciones-diferenciales_w688.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+#imagenes-relacionadas .container{
+    text-align: center;
+    padding: 200px 10px;
+}
+
+#imagenes-relacionadas li{
+    margin: 10pax 0px;
+    font-weight: bold;
+}
